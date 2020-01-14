@@ -4,16 +4,26 @@
     "githubUrl": "https://github.com/is2ei/serverless-plugin-typetalk",
     "status": "none"
 }, {
+    "name": "serverless-localstack",
+    "description": "Serverless plugin for LocalStack - a fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!",
+    "githubUrl": "https://github.com/LocalStack/serverless-localstack",
+    "status": "none"
+}, {
     "name": "serverless-plugin-test-helper",
     "description": "Makes it easier to end-to-end test deployed deployed services by saving CloudFormation Stack Outputs locally and exposing values via a simple Node.js library",
     "githubUrl": "https://github.com/manwaring/serverless-plugin-test-helper",
     "status": "none"
-},{
+}, {
     "name": "serverless-plugin-iam-checker",
     "description": "Helps automate security controls by preventing overly broad IAM permissions via customizable rules for both actions and resource references. Ships with restrictive defaults and supports custom rule configurations via serverless.yml and environment variables",
     "githubUrl": "https://github.com/manwaring/serverless-plugin-iam-checker",
     "status": "none"
-},{
+}, {
+    "name": "serverless-plugin-layer-manager",
+    "description": "Plugin for improved AWS Lambda layer management, including install hooks, export options and improved retain support",
+    "githubUrl": "https://github.com/henhal/serverless-plugin-layer-manager",
+    "status": "none"
+}, {
     "name": "serverless-export-outputs",
     "description": "A Serverless plugin for exporting AWS stack outputs to a file",
     "githubUrl": "https://github.com/honarpour/serverless-export-outputs",
@@ -79,6 +89,11 @@
     "githubUrl": "https://github.com/serverless-local-proxy/serverless-local-proxy",
     "status": "community"
 }, {
+    "name": "serverless-print-resolved-plugin",
+    "description": "Generate a copy of serverless.yml with all variables resolved.",
+    "githubUrl": "https://github.com/neverendingqs/serverless-print-resolved-plugin",
+    "status": "none"
+}, {
     "name": "serverless-discovery-plugin",
     "description": "A serverless plugin to register AWS micro-service endpoints with a discovery service at serverless deploy or serverless remove time.",
     "githubUrl": "https://github.com/aregier/serverless-discovery-plugin",
@@ -98,6 +113,11 @@
     "description": "Serverless Plugin to deploy AppSync GraphQL API",
     "githubUrl": "https://github.com/sid88in/serverless-appsync-plugin",
     "status": "approved"
+}, {
+    "name": "serverless-plugin-tag-cloud-watch-logs",
+    "description": "Small serverless plugin providing a way to add tags to CloudWatch resources",
+    "githubUrl": "https://github.com/pretty-fun-therapy/serverless-plugin-tag-cloud-watch-logs",
+    "status": "none"
 }, {
     "name": "serverless-appsync-offline",
     "description": "Serverless Plugin to run AWS AppSync GraphQL API localy with dynamoDB and lambda resolvers",
@@ -289,6 +309,11 @@
     "githubUrl": "https://github.com/doapp-ryanp/serverless-plugin-browserify",
     "status": "community"
 }, {
+    "name": "serverless-plugin-datadog",
+    "description": "Monitoring, tracing, and real-time metrics for your Lambda functions",
+    "githubUrl": "https://github.com/DataDog/serverless-plugin-datadog",
+    "status": "none"
+}, {
     "name": "serverless-plugin-diff",
     "description": "Compares your local AWS CloudFormation templates against deployed ones.",
     "githubUrl": "https://github.com/nicka/serverless-plugin-diff",
@@ -399,6 +424,11 @@
     "githubUrl": "https://github.com/horike37/serverless-step-functions",
     "status": "certified"
 }, {
+    "name": "serverless-lambda-layer-packager",
+    "description": "A Serverless plugin that allows you to maintain your normal project structure when developing Lambda Layers.",
+    "githubUrl": "https://github.com/bramhoven/serverless-lambda-layer-packager",
+    "status": "none"
+}, {
     "name": "serverless-apigateway-service-proxy",
     "description": "This Serverless Framewrok plugin supports the AWS service proxy integration feature of API Gateway.",
     "githubUrl": "https://github.com/horike37/serverless-apigateway-service-proxy",
@@ -473,6 +503,11 @@
     "description": "Configure automated DynamoDB \"On-Demand\" backups and manage backups lifecycle, powered by AWS Lambda",
     "githubUrl": "https://github.com/UnlyEd/serverless-plugin-dynamodb-backups",
     "status": "community"
+}, {
+    "name": "serverless-convention",
+    "description": "Dynamically import resources by defining a convention, split up your yml",
+    "githubUrl": "https://github.com/LeoPlatform/serverless-convention",
+    "status": "none"
 }, {
     "name": "serverless-offline-scheduler",
     "description": "Runs scheduled functions offline while integrating with serverless-offline",
@@ -829,10 +864,20 @@
     "githubUrl": "https://github.com/MechanicalRock/serverless-sns-filter",
     "status": "none"
 }, {
+    "name": "serverless-plugin-tagsns",
+    "description": "Serverless plugin to add Tags to SNS Topics",
+    "githubUrl": "https://github.com/ManoManoTech/serverless-plugin-tagsns",
+    "status": "none"
+}, {
     "name": "serverless-reqvalidator-plugin",
     "description": "Serverless plugin to add request validator to API Gateway methods",
     "githubUrl": "https://github.com/RafPe/serverless-reqvalidator-plugin",
     "status": "approved"
+}, {
+    "name": "serverless-plugin-conditional-functions",
+    "description": "A plugin that allows adding simple feature flag per function via a boolean condition.",
+    "githubUrl": "https://github.com/go-dima/serverless-plugin-conditional-functions",
+    "status": "none"
 }, {
     "name": "serverless-ephemeral",
     "description": "Build and include custom stateless libraries for any language",
@@ -1088,6 +1133,11 @@
     "description": "Serverless plugin which configures API Gateway caching",
     "githubUrl": "https://github.com/DianaIonita/serverless-api-gateway-caching",
     "status": "approved"
+}, {
+    "name": "serverless-api-gateway-throttling",
+    "description": "Serverless plugin which configures throttling for API Gateway endpoints",
+    "githubUrl": "https://github.com/DianaIonita/serverless-api-gateway-throttling",
+    "status": "none"
 }, {
     "name": "serverless-vpc-plugin",
     "description": "Serverless plugin to create a VPC",
@@ -1410,6 +1460,11 @@
     "name": "serverless-tag-sns-topic",
     "description": "Serverless plugin to tag SNS Topic",
     "githubUrl": "https://github.com/inokappa/serverless-tag-sns-topic"
+  },
+  {
+    "name": "serverless-middleware",
+    "description": "Serverless plugin to allow middleware handlers configured directly in serverless.yaml",
+    "githubUrl": "https://github.com/juanjoDiaz/serverless-middleware"
   },
   {
     "name": "serverless-stack-termination-protection",
